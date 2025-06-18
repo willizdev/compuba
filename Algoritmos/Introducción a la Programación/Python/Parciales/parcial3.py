@@ -117,7 +117,7 @@ def cambiar_matriz(A: list[list[int]]) -> None:
 # }
 
 def esVocal(caracter: chr) -> bool:
-    for c in "aeiou":
+    for c in "aeiouAEIOU":
         if caracter == c:
             return True
     return False
